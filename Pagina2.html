@@ -1,0 +1,97 @@
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?
+        family=Lato&display=swap" rel="stylesheet">
+        <style>
+            *{margin: 2px;} /*door sterretje geldt het voor het hele document*/
+            /* ------HEADERS ------, dit * met / werkt alleen voor css */
+            h2{
+                position: absolute;
+                font-family: 'Lato', sans-serif;
+                font-size: 50px;
+                left: 50%;
+                transform: translate(-50%);
+            }
+
+            ul{list-style-type: none;}
+
+            /*padding geeft ruimte in het blok,
+            margin er omheen*/
+            .month{
+                padding: 70px 25px;
+                /*1 ding geldt meteen voor alles,
+                2 dingen: eerst boven en onder, dan links en rechts,
+                4 dingen: boven - rechts - onder - links*/
+                width: 400px;
+                background: #e67e22;
+                text-align: center; 
+                /*justify is alle woorden mooi langs kant,
+                maar gebruik je alleen bij langere alinea's
+                center is in het midden*/
+                font-size: 30px
+            }
+
+            /*we bewerken nu de pijltjes, want we willen
+            dat augustus er tussen staat*/
+            .prev{float: left;}
+            .next{float: right;}
+        </style>
+        <title>Date and time</title>
+    </head>
+    <body>
+        <div class="month">
+            <ul>
+                <li class="prev">&#10094;</li>
+                <li class="next">&#10095;</li>
+                <li>August</li>
+            </ul>
+        </div>
+
+        <div> <!--dit is een divider, die zorgt dat dit 
+        één ding is dat je op een eigen plek kan zetten.-->
+            <ul class="weekdays">
+                <li>Ma</li>
+                <li>Di</li>
+                <li>Wo</li>
+                <li>Do</li>
+                <li>Vr</li>
+                <li>Za</li>
+                <li>Zo</li>
+            </ul>
+        </div>
+
+        <div>
+            <ul class="days">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+            </ul>
+            </ul>
+        </div>
+    </body>
+</html>
